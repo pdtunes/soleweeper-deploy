@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add hero</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Lato&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="topmenu">
+    <div class="accountwrap">
+      <div class="container">
+        <ul>
+          <li><a href="./login.html">Log in</a></li>
+          <li><a href="./register.html">Create Account</a></li>
+        </ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"><img src="./assets/sswlogo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <h1 class="hamburger">≡</h1>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+          </ul>
+
+        </div>
+      </div>
+  </div>
+  </nav>
+  </div>
+
+
+  <div class="container">
+    <div class="form">
+      <div class="message-container"></div>
+      <form>
+        <div class="form-group">
+          <label for="image">Image Link</label>
+          <input id="image" />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    </form>
+  </div>
+  <script src="./src/addHero.ts" type="module"></script>
+  <script src="./node_modules/jquery/dist/jquery.js"> </script>
+  <script src="./src/bootstrap.js"></script>
+
+
+</body>
+
+</html>

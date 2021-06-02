@@ -1,0 +1,45 @@
+.btn-outline-success {
+  color: #28a2d8;
+  border-color: #28a2d8;
+}
+
+.btn-primary{
+  background-color: #28a2d8;
+  color: rgb(255, 255, 255);
+  border-radius: 5%;
+  display: flex;
+  padding: 0.5rem;
+  border: none;
+}
+
+button {
+  background-color: #28a2d8;
+  color: rgb(255, 255, 255);
+  border-radius: 5%;
+  display: flex;
+  padding: 0.5rem;
+  border: none;
+}
+
+.delete {
+  background-color: #e40000;
+  color: rgb(255, 255, 255);
+  border-radius: 5%;
+  display: flex;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.logbtn{
+  background-color: #28a2d8;
+  color: rgb(255, 255, 255);
+  border-radius: 5%;
+  display: flex;
+  padding: 0.5rem;
+  border: none;
+}
+
+#clear{
+margin: 1rem;
+}

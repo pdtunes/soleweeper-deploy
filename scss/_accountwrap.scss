@@ -1,0 +1,24 @@
+.accountwrap {
+  background-color: black;
+  margin-bottom: 0;
+}
+ul {
+  margin-bottom: 0;
+}
+
+.accountwrap ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+.accountwrap li {
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.accountwrap a {
+  color: white;
+}

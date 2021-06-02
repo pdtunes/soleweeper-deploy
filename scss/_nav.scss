@@ -1,0 +1,28 @@
+.nav-item a {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.topmenu {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-brand img {
+  max-width: 200px;
+}
+
+.navbar {
+  background-color: #E8E8E8;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 50px;
+}

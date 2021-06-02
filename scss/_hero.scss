@@ -1,0 +1,28 @@
+.hero-image {
+  width: 100%;
+  display: flex;
+   
+}
+
+.hero-image img {
+  max-width: 100%;
+  align-self: center;
+}
+
+.hero-text {
+ position: absolute;
+ align-self: center;
+ padding-left: 1rem;
+}
+
+
+
+
+@media (max-width: 780px) {
+
+ 
+  .hero-text h1 {
+    margin-right:10px;
+    font-size: 20px;
+  }
+}

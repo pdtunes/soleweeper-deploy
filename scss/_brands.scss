@@ -1,0 +1,29 @@
+.brand {
+  min-width: 120px;
+  max-width: 120px;
+  height: 100;
+  margin: 1rem;
+  border: none; 
+}
+
+.brand {
+  -webkit-box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.75);
+  padding: 30px;
+}
+
+.brand a {
+  display: flex;
+  justify-content: center;
+}
+
+.brand-hero-image{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.brand-hero-image img{
+  max-width: 200px;
+}
