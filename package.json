@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html add.html addhero.html adidas.html admin.html cart.html contact.html converse.html detail.html edit.html login.html nike.html puma.html register.html",
+    "build": "parcel build index.html add.html addhero.html adidas.html admin.html cart.html contact.html converse.html detail.html edit.html login.html nike.html puma.html register.html",
     "test": "jest",
     "boop": "parcel ./index.html"
   },
