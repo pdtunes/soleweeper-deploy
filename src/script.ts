@@ -51,7 +51,7 @@ const token = getToken();
       <p class="card-text">${featuredshoe.title} </p>
       <h6 class="card-title"> Price: $ ${featuredshoe.price}</h6>
       </a>
-      <i class=" ${cssClass} fa-shopping-cart"  
+      <i class=" ${cssClass} fa-cart-plus"  
       data-id="${featuredshoe.id}"
       data-brand="${featuredshoe.brand}"
       data-image="${featuredshoe.image_url}"
@@ -71,7 +71,7 @@ const token = getToken();
         <p class="card-text">${featuredshoe.title} </p>
         <h6 class="card-title"> Price:$ ${featuredshoe.price}</h6>
         </a>
-        <i class="${cssClass} fa-cart-plus"
+        <i class="${cssClass} fa-shopping-cart"
         data-id="${featuredshoe.id}"
         data-brand="${featuredshoe.brand}"
         data-image="${featuredshoe.image_url}"
@@ -95,8 +95,8 @@ const token = getToken();
   });
 
   function handleClick(e: any) {
-    this.classList.toggle("fa");
     this.classList.toggle("fa-shopping-cart");
+    this.classList.toggle("fa-cart-plus");
     const id = e.target.dataset.id;
     const brand = e.target.dataset.brand;
     const title = e.target.dataset.title;
