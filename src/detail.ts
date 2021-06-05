@@ -16,12 +16,12 @@ const id = params.get("id");
     const response = await fetch(productsUrl);
     const products = await response.json();
 
-    let cssClass = "far";
+    let cssClass = "fas";
     const doesProductExist = existingFavs.find((fav) => {
       return parseInt(fav.id) === products.id;
     });
     if (doesProductExist) {
-      cssClass = "fa";
+      cssClass = "fa-shopping-cart";
     }
     {
       container.innerHTML += `
@@ -34,7 +34,7 @@ const id = params.get("id");
       <p class="card-text">${products.description} </p>
       <h6 class="card-title"> Price: $ ${products.price}</h6>
      
-      <i class="${cssClass} fa-heart "  
+      <i class="${cssClass} fa-cart-plus "  
       data-id="${products.id}"
       data-brand="${products.brand}"
       data-title="${products.title}"
@@ -61,7 +61,7 @@ const id = params.get("id");
 
   function handleClick(e: any) {
     this.classList.toggle("fa");
-    this.classList.toggle("far");
+    this.classList.toggle("fa-shopping-cart");
     const id = e.target.dataset.id;
     const brand = e.target.dataset.brand;
     const title = e.target.dataset.title;

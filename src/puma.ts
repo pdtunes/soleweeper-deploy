@@ -37,7 +37,7 @@ const token = getToken();
       <p class="card-text">${pumashoe.description} </p>
       <h6 class="card-title"> Price: $ ${pumashoe.price}</h6>
       </a>
-      <i class="${cssClass} fa-shopping-cart "  
+      <i class="${cssClass} fa-shopping-cart"  
       data-id="${pumashoe.id}"
       data-title="${pumashoe.title}"
       data-image="${pumashoe.img}"
